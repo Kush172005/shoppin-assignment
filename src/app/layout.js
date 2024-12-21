@@ -1,5 +1,6 @@
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header/Header";
 
 const inter = Inter({
     variable: "--font-inter",
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
             <body
                 className={`${inter.variable} ${robotoMono.variable} antialiased`}
             >
+                <Header />
                 {children}
             </body>
         </html>

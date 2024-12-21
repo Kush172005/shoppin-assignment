@@ -26,12 +26,12 @@ const images = [
     { front: strap1, title: "Natural Milanese Loop" },
     { front: strap2, title: "Natural Link Bracelet" },
     { front: strap3, title: "Pride Edition Sport Loop" },
-    { front: strap4, title: "cc" },
-    { front: strap5, title: "cc" },
-    { front: strap6, title: "cc" },
-    { front: strap7, title: "cc" },
-    { front: strap8, title: "cc" },
-    { front: strap9, title: "cc" },
+    { front: strap4, title: "Black Unity Sport Loop" },
+    { front: strap5, title: "Denim Sport Band" },
+    { front: strap6, title: "Black Unity Sport Band" },
+    { front: strap7, title: "Pride Edition Braided Solo Loop" },
+    { front: strap8, title: "Black Unity Braided Solo Loop" },
+    { front: strap9, title: "Blue Flame Nike Sport Band" },
 ];
 
 const carouselImages = [

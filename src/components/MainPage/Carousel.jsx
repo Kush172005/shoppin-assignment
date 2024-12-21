@@ -36,12 +36,12 @@ const bandImages = [
     { front: strap1, title: "Natural Milanese Loop" },
     { front: strap2, title: "Natural Link Bracelet" },
     { front: strap3, title: "Pride Edition Sport Loop" },
-    { front: strap4, title: "cc" },
-    { front: strap5, title: "cc" },
-    { front: strap6, title: "cc" },
-    { front: strap7, title: "cc" },
-    { front: strap8, title: "cc" },
-    { front: strap9, title: "cc" },
+    { front: strap4, title: "Black Unity Sport Loop" },
+    { front: strap5, title: "Denim Sport Band" },
+    { front: strap6, title: "Black Unity Sport Band" },
+    { front: strap7, title: "Pride Edition Braided Solo Loop" },
+    { front: strap8, title: "Black Unity Braided Solo Loop" },
+    { front: strap9, title: "Blue Flame Nike Sport Band" },
 ];
 
 const Carousel = () => {
@@ -144,11 +144,7 @@ const Carousel = () => {
                     {images.map((image, index) => (
                         <div key={index} className="flex-shrink-0 snap-center ">
                             <Image
-                                src={
-                                    index === centerFaceImageIndex && isSideView
-                                        ? image.side
-                                        : image.front
-                                }
+                                src={image.front}
                                 alt={`apple-watch-${index}`}
                                 width={400}
                                 height={400}
@@ -168,14 +164,6 @@ const Carousel = () => {
                     {bandImages[imageDynamic]?.title}
                 </div>
                 <div className="text-sm mt-1">From $429</div>
-                {/* <button
-                    onClick={() => setIsSideView(!isSideView)}
-                    className="text-center text-blue-700 text-xs underline cursor-pointer"
-                >
-                    {isSideView
-                        ? "Switch to Front View"
-                        : "Switch to Side View"}
-                </button> */}
             </div>
 
             <div className="flex justify-center mt-[3rem] gap-4 text-lg">
